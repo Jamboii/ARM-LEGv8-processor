@@ -2,4 +2,20 @@
 
 Bottoms-up implementation of a single cycle ARM architecture using high level abstraction design methodology
 
-description to be added
+## Tasks
+
+This processor implements a single-cycle ARM architecture and is verified in Verilog using a high level of abstraction design methodology. The instructions that were to be supported are the following:  `LDUR`, `STUR`, `ADD`, `SUB`, `AND`, `ORR`, `CBZ`, and `B`. Test bench code connects the CPU and the memories, initializes the program memory, and provides a clock and a reset.
+
+## Waveforms
+
+####Data Memory
+
+![SC Waveform 1](/Single-Cycle-Processor/Waveforms/data-memory.png)
+
+####Register Data
+
+![SC Waveform 2](/Single-Cycle-Processor/Waveforms/register-data.png)
+
+## License
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Jamboii/ARM-LEGv8-Processor/master/LICENSE.md)
