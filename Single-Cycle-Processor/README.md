@@ -8,11 +8,11 @@ This processor implements a single-cycle ARM architecture and is verified in Ver
 
 ## Waveforms
 
-####Data Memory
+#### Data Memory
 
 ![SC Waveform 1](/Single-Cycle-Processor/Waveforms/data-memory.png)
 
-####Register Data
+#### Register Data
 
 ![SC Waveform 2](/Single-Cycle-Processor/Waveforms/register-data.png)
 
